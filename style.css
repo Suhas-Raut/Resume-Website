@@ -1,0 +1,85 @@
+body {
+  padding: 45px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 85%;
+    position: absolute;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active{
+    color: black;
+    background: white;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+div ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+div ul li{
+    margin: 35px;
+}
+
+div ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 8px;
+}
+
+div ul li a:hover,
+div ul li a.active{
+    color: black;
+    background: rgb(197, 120, 4);
+}
+.change a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
