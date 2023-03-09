@@ -1,49 +1,57 @@
 body {
   padding: 45px;
   background-color: black;
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 20px;
 }
 
-header{
-    top: 0;
-    left: 0;
-    width: 85%;
-    position: absolute;
-    padding: 30px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  top: 0;
+  left: 0;
+  width: 85%;
+  position: absolute;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  border-style: none;
+  border-bottom-style: dotted;
+  border-color: grey;
+  border-width: 7px;
+  width: 5%;
 }
 
 header .logo {
-    color: white;
-    text-decoration: none;
-    font-size: 2em;
-    letter-spacing: 2px;
+  color: #F0A500;
+  text-decoration: none;
+  font-size: 2em;
+  letter-spacing: 2px;
 }
 
 header ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 header ul li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
-header ul li a{
-    color:white;
-    text-decoration: none;
-    padding: 6px 15px;
-    border-radius: 20px;
+header ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 15px;
+  border-radius: 20px;
 }
 
 header ul li a:hover,
-header ul li a.active{
-    color: black;
-    background: white;
+header ul li a.active {
+  color: black;
+  background: white;
 }
 
 .dark-mode {
@@ -57,29 +65,46 @@ header ul li a.active{
 }
 
 div ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
-div ul li{
-    margin: 35px;
+div ul li {
+  margin: 35px;
 }
 
-div ul li a{
-    color:white;
-    text-decoration: none;
-    padding: 6px 15px;
-    border-radius: 8px;
+div ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 15px;
+  border-radius: 8px;
 }
 
 div ul li a:hover,
-div ul li a.active{
-    color: black;
-    background: rgb(197, 120, 4);
+div ul li a.active {
+  color: black;
+  background:#F0A500;
 }
-.change a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
+.change a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
 }
+
+h1, h2, h3 a{
+  color: #F0A500;
+}
+
+ol li a{
+  text-decoration: none;
+  color:white
+}
+ h3 a{
+  text-decoration: none;
+ }
+
+ ul li a{
+  text-decoration: none;
+  color: white;
+ }
