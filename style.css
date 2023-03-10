@@ -1,19 +1,21 @@
 body {
+  margin: 0px;
   padding: 45px;
   background-color: black;
   color: white;
   font-size: 20px;
 }
 
-header {
-  top: 0;
-  left: 0;
-  width: 85%;
-  position: absolute;
-  padding: 30px 100px;
+.header {
+  width: 100%;
+  position: relative;
+  margin-right: 15px;
+  padding: 15px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 hr {
@@ -24,32 +26,39 @@ hr {
   width: 5%;
 }
 
-header .logo {
-  color: #F0A500;
+.header .logo {
+  position: absolute;
+  left: 20px;
+  color: #f0a500;
   text-decoration: none;
   font-size: 2em;
   letter-spacing: 2px;
 }
 
-header ul {
+.header ul {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  right: 0px;
   list-style: none;
   display: flex;
   justify-content: center;
 }
 
-header ul li {
-  margin-left: 20px;
+.header ul li {
+  margin-right: 20px;
 }
 
-header ul li a {
+.header ul li a {
   color: white;
   text-decoration: none;
   padding: 6px 15px;
   border-radius: 20px;
 }
 
-header ul li a:hover,
-header ul li a.active {
+.header ul li a:hover,
+.header ul li a.active {
   color: black;
   background: white;
 }
@@ -84,7 +93,7 @@ div ul li a {
 div ul li a:hover,
 div ul li a.active {
   color: black;
-  background:#F0A500;
+  background: #f0a500;
 }
 .change a {
   color: white;
@@ -92,19 +101,21 @@ div ul li a.active {
   font-size: 1.2em;
 }
 
-h1, h2, h3 a{
-  color: #F0A500;
+h1,
+h2,
+h3 a {
+  color: #f0a500;
 }
 
-ol li a{
-  text-decoration: none;
-  color:white
-}
- h3 a{
-  text-decoration: none;
- }
-
- ul li a{
+ol li a {
   text-decoration: none;
   color: white;
- }
+}
+h3 a {
+  text-decoration: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
