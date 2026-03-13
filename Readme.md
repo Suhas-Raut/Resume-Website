@@ -2,4 +2,7 @@
 
 [![Suhas Raut](https://img.shields.io/badge/Website-Check%20It%20Out-%2300C0A3?style=for-the-badge)](https://suhas-raut.github.io/Resume-Website/)
 
-<img src="images/all-devices-black.png" alt="Devices" >
+<a href="https://github.com/Suhas-Raut/">
+  <img align="center"
+    src="https://github.com/Suhas-Raut/Resume-Website/blob/master/Webiste_Preview.gif?raw=true" />
+</a>  
